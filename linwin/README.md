@@ -113,9 +113,16 @@ To use LinWin on Windows, you must have Windows Subsystem for Linux enabled with
 
 ## Running the Application
 
-### Launch GUI
+### Launch Desktop GUI
 ```bash
+# Requires PySide6 installed (pip install PySide6)
 python main.py
+```
+
+### Launch Interactive CLI Terminal (Zero Dependencies)
+If you don't have PySide6 installed or are in a headless environment, you can run LinWin directly in your terminal:
+```bash
+python main.py --cli
 ```
 
 ### Run Diagnostic Check (CLI)

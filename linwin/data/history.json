@@ -3,5 +3,6 @@
   "ls -la",
   "pwd",
   "df -h",
-  "free -m"
+  "free -m",
+  "uname -a"
 ]

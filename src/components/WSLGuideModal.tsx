@@ -37,9 +37,9 @@ export const WSLGuideModal: React.FC<Props> = ({ isOpen, onClose, theme }) => {
       cmd: 'wsl --install -d Debian\nwsl --install -d kali-linux',
     },
     {
-      title: '4. Clone and Run LinWin Desktop Application',
-      description: 'In your Windows terminal (PowerShell or Command Prompt):',
-      cmd: 'git clone https://github.com/your-username/linwin.git\ncd linwin\npip install -r requirements.txt\npython main.py',
+      title: '4. Run LinWin (Desktop GUI or Instant CLI Mode)',
+      description: 'Run the full PySide6 GUI window or instant zero-dependency CLI terminal:',
+      cmd: '# Option A: Full Desktop GUI (requires PySide6)\npip install PySide6\npython main.py\n\n# Option B: Instant CLI Terminal (Zero external dependencies needed)\npython main.py --cli\n\n# Option C: System Diagnostic Check\npython main.py --diagnostics',
     },
   ];
 
