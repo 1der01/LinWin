@@ -1,0 +1,7 @@
+[
+  "uname -a",
+  "ls -la",
+  "pwd",
+  "df -h",
+  "free -m"
+]

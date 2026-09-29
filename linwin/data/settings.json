@@ -1,0 +1,12 @@
+{
+  "default_distribution": "Ubuntu",
+  "theme": "dark",
+  "font_size": 13,
+  "font_family": "Consolas",
+  "history_limit": 500,
+  "confirm_dangerous": true,
+  "startup_behavior": "home_directory",
+  "timeout_seconds": 120,
+  "show_exit_codes": true,
+  "timestamp_display": true
+}

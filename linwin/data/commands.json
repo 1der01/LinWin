@@ -1,0 +1,72 @@
+[
+  {
+    "id": "cmd-1",
+    "name": "Check Disk Usage (Human Readable)",
+    "command": "df -h",
+    "category": "System",
+    "description": "Show available disk space on all mounted filesystems"
+  },
+  {
+    "id": "cmd-2",
+    "name": "Check Memory & RAM",
+    "command": "free -m -h",
+    "category": "System",
+    "description": "Display total, used, and free physical memory"
+  },
+  {
+    "id": "cmd-3",
+    "name": "Active Listening Network Ports",
+    "command": "ss -tulpn",
+    "category": "Network",
+    "description": "List all active TCP/UDP listening ports and processes"
+  },
+  {
+    "id": "cmd-4",
+    "name": "Linux Kernel & OS Release",
+    "command": "uname -a && cat /etc/os-release | grep PRETTY_NAME",
+    "category": "System",
+    "description": "Show kernel version and Linux distribution details"
+  },
+  {
+    "id": "cmd-5",
+    "name": "Top Running Processes by Memory",
+    "command": "ps aux --sort=-%mem | head -n 10",
+    "category": "Processes",
+    "description": "Display the top 10 memory-consuming processes"
+  },
+  {
+    "id": "cmd-6",
+    "name": "Git Status Overview",
+    "command": "git status -sb",
+    "category": "Development",
+    "description": "Concise view of current branch and working tree changes"
+  },
+  {
+    "id": "cmd-7",
+    "name": "List Files with Detailed Permissions",
+    "command": "ls -la --color=auto",
+    "category": "Filesystem",
+    "description": "Show all files including hidden ones with permissions and sizes"
+  },
+  {
+    "id": "cmd-8",
+    "name": "Check IP Addresses",
+    "command": "ip -br addr show",
+    "category": "Network",
+    "description": "Display brief network interface addresses"
+  },
+  {
+    "id": "cmd-9",
+    "name": "Find Large Files (>50MB)",
+    "command": "find . -type f -size +50M -exec ls -lh {} + 2>/dev/null",
+    "category": "Filesystem",
+    "description": "Locate files larger than 50 megabytes in current folder"
+  },
+  {
+    "id": "cmd-10",
+    "name": "Check WSL Path Mounts",
+    "command": "mount | grep drvfs",
+    "category": "WSL",
+    "description": "Show Windows drives (C:, D:) mounted via WSL drvfs"
+  }
+]

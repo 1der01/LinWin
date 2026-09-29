@@ -1,0 +1,6 @@
+{
+  "name": "LinWin - Lightweight Linux Terminal for Windows",
+  "description": "A polished Windows desktop application and interactive workstation for executing Linux commands through Windows Subsystem for Linux (WSL). Features real process management, Material Design UI, safety confirmation dialogs, command library, and Python PySide6 source.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
